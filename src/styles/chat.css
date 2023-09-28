@@ -1,0 +1,123 @@
+#chat{
+    width: 500px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: space-between;
+    background: url('../assets/chat.svg'), lightgray 0% 0% / 50px 50px repeat;
+    background-size: 60%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border: 1px solid #cac9c9;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.chatContainer{
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.chatRow{
+    width: 100%;
+    display: flex;
+    padding-top: 100%;
+}
+
+#chat.visible .chatRow.right{
+    justify-content: flex-end;
+    right: 20px;
+    animation: slideFromBottom .5s ease-in-out 1s forwards;
+    -webkit-animation: slideFromBottom .5s ease-in-out 1s forwards;
+}
+
+#chat.visible .chatRow.left{
+    justify-content: flex-start;
+    left: 20px;
+    animation: slideFromBottom .5s ease-in-out 2s forwards;
+    -webkit-animation: slideFromBottom .5s ease-in-out 2s forwards;
+}
+
+.chatRow .bouble{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0px;
+}
+
+.chatUser{
+    font-weight: 700;
+}
+
+.lightBlue{
+    color: #21759B;
+}
+
+.darkBlue{
+    color: #2F4858;
+}
+
+.chatMessage{
+    font-size: .7rem;
+}
+
+
+@keyframes slideFromBottom {
+    0%{
+        padding-top: 100%;
+    }
+    100%{
+        padding-top: 10px;
+    }
+}
+
+
+.chatInputContainer{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.chatInput{
+    display: flex;
+    width: 411px;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px; 
+    border-radius: 10px;
+    border: 1px solid #ECECEC;
+    background: #FFF;
+    flex-grow: 1;
+}
+
+.chatInput span{
+    color: rgba(36, 41, 47, 0.56); 
+    font-size: .8rem;
+    flex: 1 0 0;
+}
+
+.sendButton{
+    display: flex;
+    width: 34px;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    border-radius: 100px;
+    background: #476375; 
+}
+
+
+@media screen and (max-width: 900px) {
+    #chat{
+        width: 100%;
+    }
+}

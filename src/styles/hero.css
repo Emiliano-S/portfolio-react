@@ -1,0 +1,118 @@
+
+.heroLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.heroLeft h1{
+    color: #24292F;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+}
+.heroLeft h1 b{
+    font-weight: 800;
+}
+
+b{
+    color:#2F4858;
+}
+
+.heroRight{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroPictureMain{
+    width: 555px;
+    height: 473px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 75% 25% 50% 50% / 50% 50% 79% 53% ;
+    -webkit-border-radius: 75% 25% 50% 50% / 50% 50% 79% 53% ;
+    -moz-border-radius: 75% 25% 50% 50% / 50% 50% 79% 53% ;
+    -ms-border-radius: 75% 25% 50% 50% / 50% 50% 79% 53% ;
+    -o-border-radius: 75% 25% 50% 50% / 50% 50% 79% 53% ;
+}
+
+.heroPictureContainer{
+    position: absolute;
+    top: 20px;
+    top: 5rem;
+    overflow: hidden;
+    width: 555px;
+    height: 473px;
+    background-color: #2F4858;
+    border-radius: 75% 25% 50% 50% / 47% 21% 79% 53% ;
+    -webkit-border-radius: 75% 25% 50% 50% / 47% 21% 79% 53% ;
+    -moz-border-radius: 75% 25% 50% 50% / 47% 21% 79% 53% ;
+    -ms-border-radius: 75% 25% 50% 50% / 47% 21% 79% 53% ;
+    -o-border-radius: 75% 25% 50% 50% / 47% 21% 79% 53% ;
+    z-index: -1;
+}
+
+.heroPictureMain img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -50px;
+}
+
+.mouseScroll{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mouseScroll img{
+    width: 64px;
+    height: auto;
+    animation: jump 2s infinite ease-in-out;
+    -webkit-animation: jump 2s infinite ease-in-out;
+}
+
+@keyframes jump {
+    0%{
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -o-transform: translateY(0px);
+}
+}
+
+@media screen and (max-width: 900px){
+    #hero .container .heroRight{
+        display: none;
+    }
+    .mouseScroll{
+        display: none;
+    }
+}

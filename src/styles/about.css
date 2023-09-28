@@ -1,0 +1,26 @@
+.techContainer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+.techContainer .bouble{
+    height: 34px;
+    padding: 5px 10px !important;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #1E1E1E;
+}
+
+.aboutLeft,.aboutRight{
+    flex: 1;
+}
+
+.aboutRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

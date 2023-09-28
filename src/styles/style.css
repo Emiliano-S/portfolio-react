@@ -1,0 +1,238 @@
+@import './header.css';
+@import './hero.css';
+@import './socials.css';
+@import './about.css';
+@import './card.css';
+@import './services.css';
+@import './chat.css';
+@import './contacts.css';
+
+:root{
+    --background-color: #F0F0EF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--background-color);
+    font-size: calc(15px + 0.390625vw);
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    width: 100%;
+    font-size: 2.5rem;
+}
+p{
+    font-size: 1.2rem;
+    color: #24292F;
+}
+
+#root{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 91px 10vw;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section.full{
+    height: 100vh;
+    margin-top: 0;
+}
+
+section .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    position: relative;
+}
+
+.bouble{
+    width: max-content;
+    display: flex;
+    font-size: 14px;
+    padding: 10px 20px;
+    align-items: center;
+    color: #24292F;
+    gap: 20px;
+    background: #FFF;
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+
+
+.container .imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.container .contentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.contentContainer h2{
+    color: #2F4858;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contentContainer p{
+    margin-top: 20px;
+}
+
+.contentContainer p:first-of-type{
+    margin-top: 0 !important;
+}
+
+@media screen and (max-width: 900px){
+    h1 {
+        font-size: 2.3rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    section .container{
+        flex-direction: column;
+    }
+
+    .aboutLeft.imageContainer > img{
+        width: 90vw;
+    }
+
+    section{
+        padding: 91px 5vw;
+    }
+
+    .cardContainer{
+        justify-content: center !important;
+    }
+}
+
+.title span{
+    width: 100%;
+    opacity: 0;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.line{
+    flex: 1;
+    margin-bottom: -10px;
+    height: 2px;
+    background: #2F48581C;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.visible .title span{
+    animation: titleAnimation 1s linear .5s forwards;
+    -webkit-animation: titleAnimation 1s linear .5s forwards;
+}
+
+.sectionDescription{
+    opacity: 0;
+}
+
+.visible .sectionDescription{
+    animation: showDescription 1s linear .5s forwards;
+    -webkit-animation: showDescription 1s linear .5s forwards;
+}
+
+.slideFromLeft{
+    margin-left: -110vw;
+}
+
+.slideFromRight{
+    margin-left: 110vw;
+}
+
+.visible .slideFromLeft{
+    animation: slideFromLeft 2s ease-in-out 1s forwards;
+    -webkit-animation: slideFromLeft 2s ease-in-out 1s forwards;
+}
+
+.visible .slideFromRight{
+    animation: slideFromRight 2s ease-in-out 1s forwards;
+    -webkit-animation: slideFromRight 2s ease-in-out 1s forwards;
+}
+
+@keyframes slideFromLeft{
+    0%{
+        margin-left: -110vw;
+    }
+    70%{
+        margin-left: 100px;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+@keyframes slideFromRight{
+    0%{
+        margin-left: 110vw;
+    }
+    100%{
+        margin-left: 0;
+    }
+}
+
+@keyframes titleAnimation {
+    0%{
+        opacity: 0;
+        margin-top: 10px
+    }
+    100%{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes showDescription{
+    0%{
+        margin-top: 40px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
