@@ -32,9 +32,12 @@ const Contact = () => {
               Feel free to reach out using the button and social media below, and I'll get back to you as soon as possible.
             </p>
             <div className='container contact-button'>
-              <div className='bouble'>
-                Contact me!
-              </div>
+              <Link to='javascript:void(0)'
+                    onClick={() => window.location = 'mailto:yourmail@domain.com'}>
+                <div className='bouble'>
+                  Contact me!
+                </div>
+              </Link>
               <Socials></Socials>
             </div>
         </div>

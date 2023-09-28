@@ -36,9 +36,6 @@ const Hero = () =>{
                     </div>
                 </div>
             </div>
-            <div className='mouseScroll'>
-                <img src={mouse} alt='Scroll down' />
-            </div>
         </section>
     )
 }
