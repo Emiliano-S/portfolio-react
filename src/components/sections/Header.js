@@ -42,10 +42,9 @@ const Header = () =>{
                     </ul>
                 </div>
                 <nav>
-                    <Link to='about'  duration={500} onClick={openMenuMobile}>About me</Link>
-                    <Link to='services'  duration={500} onClick={openMenuMobile}>Services</Link>
-                    <Link to='works'  duration={500} onClick={openMenuMobile}>Works</Link>
-                    <Link to='contact'  duration={500} onClick={openMenuMobile}>Contact</Link>
+                    <Link to='about' href='#about' duration={500} onClick={openMenuMobile}>About me</Link>
+                    <Link to='services' href='#services'  duration={500} onClick={openMenuMobile}>Services</Link>
+                    <Link to='contact' href='#contact'  duration={500} onClick={openMenuMobile}>Contact</Link>
                 </nav>
             </div>
         </section>
