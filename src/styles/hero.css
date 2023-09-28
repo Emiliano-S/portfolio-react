@@ -2,6 +2,8 @@
 .heroLeft{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
     flex: 1;
 }
@@ -57,14 +59,6 @@ b{
     z-index: -1;
 }
 
-.heroPictureMain img{
-    width: 100%;
-    height: auto;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -50px;
-}
 
 .mouseScroll{
     position: absolute;
@@ -83,6 +77,30 @@ b{
     animation: jump 2s infinite ease-in-out;
     -webkit-animation: jump 2s infinite ease-in-out;
 }
+
+.profile{
+    top: 100vw;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    animation: moveUp 1s ease-out forwards;
+    -webkit-animation: moveUp 1s ease-out forwards;
+}
+
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@keyframes moveUp{
+    100%{
+        top: -50px;
+    }
+}
+
 
 @keyframes jump {
     0%{

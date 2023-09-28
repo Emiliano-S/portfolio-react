@@ -29,19 +29,19 @@ const About = () =>{
                                         }}>
                             A summary about me 🙋🏻‍♂️
                         </div>
-                        <h2 className='title'>
+                        <h2 className='title w80'>
                             <span>About me <span className='line'></span></span>
                         </h2>
-                        <p className='sectionDescription'>
+                        <p className='sectionDescription w80'>
                             Hello, I'm <b>Emiliano Scanga</b>, a 28-year-old front-end developer living in <b>Como (IT)</b>. <br /> I've been a passionate web page and application creator since I was twelve years old. It all began during my school days when I had an experience with <b>Microsoft Front Page</b> and <b>Dreamweaver</b>, leading me to create my first landing page. Since then, my passion has steadily grown, driving me to independently deepen my knowledge of <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.
                         </p>
-                        <p className='sectionDescription'>
+                        <p className='sectionDescription w80'>
                             In <b>2023</b>, my dedication to web development led me to make a significant decision: I chose to pursue a professional path as a <b>Full Stack Web Developer</b> with <b>Develhope</b>. This decision was fueled by my desire to expand my skills and gain a deeper perspective in the field of web development.
                         </p>
-                        <p className='sectionDescription'>
+                        <p className='sectionDescription w80'>
                             I'm thrilled to put my skills and knowledge into practice, making the most of opportunities to grow as a professional in the industry.
                         </p>
-                        <p className='sectionDescription'>
+                        <p className='sectionDescription w80'>
                             Here are a few technologies I've been working with:
                         </p>
                         <div className='techContainer'>

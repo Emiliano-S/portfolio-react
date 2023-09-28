@@ -13,7 +13,7 @@ const Contact = () => {
   }, []);
 
   return (
-    <section className={`contact fade-in ${active && 'active'} ${isVisible ? 'visible' : ''}`} id="contact" ref={refContact}>
+    <section className={`contact fade-in ${active ? 'active' : ''} ${isVisible ? 'visible' : ''}`} id="contact" ref={refContact}>
       <div className='container'>
       <div className='aboutLeft contentContainer'>
             <div className='bouble'
@@ -22,13 +22,13 @@ const Contact = () => {
                             }}>
                 What’s next? 💬
             </div>
-            <h2 className='title'>
+            <h2 className='title w80'>
               <span>Get in touch <span className='line'></span></span>
             </h2>
-            <p className='sectionDescription'>
+            <p className='sectionDescription w80'>
               Thank you for considering my services. If you have a project in mind, a question, or just want to say hello, I'd love to hear from you.
             </p>
-            <p className='sectionDescription'>
+            <p className='sectionDescription w80'>
               Feel free to reach out using the button and social media below, and I'll get back to you as soon as possible.
             </p>
             <div className='container contact-button'>

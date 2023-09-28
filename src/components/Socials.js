@@ -25,8 +25,8 @@ const Socials = () =>{
     return(
         <div className="socialContainer sectionDescription">
             {
-                socialsArray.map(social => 
-                    <div className='socialIcon'>
+                socialsArray.map((social, i) => 
+                    <div className='socialIcon' key={`social${i}`}>
                         <a href={social.link}>
                             <img src={social.icon} alt={social.alt}/>
                         </a>

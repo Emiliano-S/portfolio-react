@@ -36,5 +36,7 @@
     .card{
         min-height: 220px;
         height: max-content;
+        width: 100%;
+        max-width: none;
     }
 }

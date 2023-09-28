@@ -71,9 +71,10 @@ const Services = () =>{
                         </h2>
                         <div className='cardContainer'>
                             {
-                                arrServices.map(service => <Card cardIcon={service.icon}
+                                arrServices.map((service, i) => <Card cardIcon={service.icon}
                                                                  cardTitle={service.title}
                                                                  cardText={service.description}
+                                                                 key={`service${i}`}
                                                                 ></Card>)
                             }
                         </div>

@@ -8,7 +8,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className={`projects fade-in ${active && 'active'}`} id="projects">
+    <div className={`projects fade-in ${active ? 'active' : ''}`} id="projects">
 
     </div>
   );

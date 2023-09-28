@@ -6,6 +6,7 @@
 @import './services.css';
 @import './chat.css';
 @import './contacts.css';
+@import './footer.css';
 
 :root{
     --background-color: #F0F0EF;
@@ -27,6 +28,7 @@ body{
 h1 {
     font-size: 3rem;
 }
+
 h2 {
     width: 100%;
     font-size: 2.5rem;
@@ -36,6 +38,9 @@ p{
     color: #24292F;
 }
 
+.w80{
+    width: 80%;
+}
 #root{
     width: 100%;
     display: flex;
@@ -117,6 +122,9 @@ section .container{
 }
 
 @media screen and (max-width: 900px){
+    .w80{
+        width: 100%;
+    }
     h1 {
         font-size: 2.3rem;
     }

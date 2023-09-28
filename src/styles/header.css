@@ -4,6 +4,7 @@
     width: 100vw;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 5vw;
     margin-top: 0;
     z-index: 2;
@@ -13,6 +14,10 @@
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+}
+
+.header .container{
+    width: 90%;
 }
 
 .header.scroll{
@@ -118,7 +123,7 @@ nav a:hover::after{
     }
     #header .container nav{
         top: 60px;
-        left: -10vw;
+        left: -37px;
         width: 100vw;
         position: absolute;
         flex-direction: column;

@@ -28,8 +28,8 @@ const Header = () =>{
     }
 
     return (
-        <section className={`header ${active && 'scroll'}`} id='header'>
-            <div className={`container ${mobileOpen && 'mobile'}`}>
+        <section className={`header ${active ? 'scroll' : ''}`} id='header'>
+            <div className={`container ${mobileOpen ? 'mobile' : ''}`}>
                 <div className='logoContainer'>
                     <img src={logo} alt='Emiliano Scanga' />
                 </div>
@@ -42,10 +42,10 @@ const Header = () =>{
                     </ul>
                 </div>
                 <nav>
-                    <Link to='about' smoot={true} duration={500} onClick={openMenuMobile}>About me</Link>
-                    <Link to='services' smoot={true} duration={500} onClick={openMenuMobile}>Services</Link>
-                    <Link to='works' smoot={true} duration={500} onClick={openMenuMobile}>Works</Link>
-                    <Link to='contact' smoot={true} duration={500} onClick={openMenuMobile}>Contact</Link>
+                    <Link to='about'  duration={500} onClick={openMenuMobile}>About me</Link>
+                    <Link to='services'  duration={500} onClick={openMenuMobile}>Services</Link>
+                    <Link to='works'  duration={500} onClick={openMenuMobile}>Works</Link>
+                    <Link to='contact'  duration={500} onClick={openMenuMobile}>Contact</Link>
                 </nav>
             </div>
         </section>
