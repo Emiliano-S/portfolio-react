@@ -31,7 +31,7 @@ const Header = () =>{
         <section className={`header ${active ? 'scroll' : ''}`} id='header'>
             <div className={`container ${mobileOpen ? 'mobile' : ''}`}>
                 <div className='logoContainer'>
-                    <img src={logo} alt='Emiliano Scanga' />
+                    <img src={logo} alt='Emiliano Scanga' width='132' height='27'/>
                 </div>
                 <div className={`mobileMenu ${mobileOpen ? 'open': ''}`}
                      onClick={openMenuMobile} >

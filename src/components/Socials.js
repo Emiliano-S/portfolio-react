@@ -28,7 +28,7 @@ const Socials = () =>{
                 socialsArray.map((social, i) => 
                     <div className='socialIcon' key={`social${i}`}>
                         <a href={social.link}>
-                            <img src={social.icon} alt={social.alt}/>
+                            <img src={social.icon} alt={social.alt} width='24' height='24'/>
                         </a>
                     </div>
                     )

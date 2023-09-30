@@ -35,7 +35,7 @@ const Chat = () =>{
                     <span>I wanna...</span>
                 </div>
                 <div className='sendButton'>
-                    <img src={sendIcon} alt='Send icon' />
+                    <img src={sendIcon} alt='Send icon' width='16' height='16' />
                 </div>
             </div>
         </div>
