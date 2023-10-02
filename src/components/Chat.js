@@ -1,21 +1,23 @@
 import React, { useRef } from 'react';
 import sendIcon from '../assets/svg/icons/send-button.svg'
 import { CheckVisibility } from '../hooks/CheckVisibility';
+import { useTranslation } from 'react-i18next';
 
 
 const Chat = () =>{
     const ref = useRef();
     const isVisible = CheckVisibility(ref);
+    const {t} = useTranslation();
     return(
         <div id='chat' ref={ref} className={isVisible ? 'visible' : ''}>
             <div className='chatContainer'>
                 <div className='chatRow right'>
                     <div className='bouble' style={{borderBottomRightRadius: '0px'}}>
                         <div className='chatUser lightBlue'>
-                            You
+                            {t('chat.message1Title')}
                         </div>
                         <div className='chatMessage'>
-                            Hi there! I came across your portfolio and I'm interested in your web development services.
+                            {t('chat.message1')}.
                         </div>
                     </div>
                 </div>
@@ -25,14 +27,14 @@ const Chat = () =>{
                             Emiliano
                         </div>
                         <div className='chatMessage'>
-                            Hey, how i can help you? 😊
+                            {t('chat.message2')}
                         </div>
                     </div>
                 </div>
             </div>
             <div className='chatInputContainer'>
                 <div className='chatInput'>
-                    <span>I wanna...</span>
+                    <span>{t('chat.chatInput')}</span>
                 </div>
                 <div className='sendButton'>
                     <img src={sendIcon} alt='Send icon' width='16' height='16' />

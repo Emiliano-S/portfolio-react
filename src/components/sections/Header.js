@@ -7,7 +7,8 @@ import Language from '../Language';
 const Header = () =>{
     const [active, setActive] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
-    
+    const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+    const {t} = useTranslation();
 
 
     useEffect(() =>{
@@ -28,7 +29,8 @@ const Header = () =>{
     const openMenuMobile = (e) => {
         e.preventDefault();
         setMobileOpen(!mobileOpen);
-    }
+        setIsLanguageDropdownOpen(false);  
+      };
 
     return (
         <section className={`header ${active ? 'scroll' : ''}`} id='header'>
@@ -45,10 +47,14 @@ const Header = () =>{
                     </ul>
                 </div>
                 <nav>
-                    <Link to='about' href='#about' duration={500} onClick={openMenuMobile}>About me</Link>
-                    <Link to='services' href='#services'  duration={500} onClick={openMenuMobile}>Services</Link>
-                    <Link to='contact' href='#contact'  duration={500} onClick={openMenuMobile}>Contact</Link>
-                   <Language />
+                    <Link to='about' href='#about' duration={500} onClick={openMenuMobile}>{t('nav.about')}</Link>
+                    <Link to='services' href='#services'  duration={500} onClick={openMenuMobile}>{t('nav.services')}</Link>
+                    <Link to='contact' href='#contact'  duration={500} onClick={openMenuMobile}>{t('nav.contact')}</Link>
+                   <Language 
+                    isDropdownOpen={isLanguageDropdownOpen}
+                    onDropdownToggle={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
+                    onLanguageChange={() => setIsLanguageDropdownOpen(false)}
+                   />
                 </nav>
                 
             </div>

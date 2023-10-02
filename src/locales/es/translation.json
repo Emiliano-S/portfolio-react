@@ -1,4 +1,9 @@
 {
+    "nav": {
+        "about": "Sobre mí",
+        "services": "Servicios",
+        "contact": "Contacto"
+    },    
     "hero": {
         "bouble": "¡Bienvenido a mi mundo! 👋🏻",
         "h1": "<span>Hola, soy <b>Emiliano</b>, un</span><span>desarrollador Front-end</span>",
@@ -8,7 +13,7 @@
         "bouble": "Un resumen sobre mí 🙋🏻‍♂️",
         "h2": "Sobre mí",
         "description": {
-            "firstP": "Hola, soy <b>Emiliano Scanga</b>, un desarrollador Front-end de 28 años que vive en <b>Como (IT)</b>. <br /> He sido un apasionado creador de páginas web y aplicaciones desde que tenía doce años. Todo comenzó durante mis días de escuela cuando tuve una experiencia con <b>Microsoft Front Page</b> y <b>Dreamweaver</b>, lo que me llevó a crear mi primera página de aterrizaje. Desde entonces, mi pasión ha crecido constantemente, impulsándome a profundizar de forma independiente en mi conocimiento de <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>.",
+            "firstP": "Hola, soy <b>Emiliano Scanga</b>, un desarrollador Front-end de 28 años que vive en <b>Como (IT)</b>. <br /> He sido un apasionado creador de páginas web y aplicaciones desde que tenía doce años. Todo comenzó durante mis días de escuela cuando tuve una experiencia con <b>Microsoft Front Page</b> y <b>Dreamweaver</b>, lo que me llevó a crear mi primera landing page. Desde entonces, mi pasión ha crecido constantemente, impulsándome a profundizar de forma independiente en mi conocimiento de <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>.",
             "secondP": "En <b>2023</b>, mi dedicación al desarrollo web me llevó a tomar una decisión importante: elegí seguir un camino profesional como <b>Desarrollador Web Full Stack</b> con <b>Develhope</b>. Esta decisión fue impulsada por mi deseo de expandir mis habilidades y obtener una perspectiva más profunda en el campo del desarrollo web.",
             "thirdP": "Estoy emocionado de poner en práctica mis habilidades y conocimientos, aprovechando al máximo las oportunidades para crecer como profesional en la industria.",
             "fourthP": "Aquí tienes algunas tecnologías con las que he estado trabajando:"
@@ -22,12 +27,12 @@
             "description": "Diseño y creación de maquetas interactivas que dan vida a tus ideas. Desde el concepto hasta la visualización, me especializo en la creación de maquetas atractivas que allanan el camino para un desarrollo sin problemas."
         },
         "development": {
-            "title": "Diseño y desarrollo de páginas de aterrizaje",
-            "description": "Creación de páginas de aterrizaje visualmente impresionantes y altamente funcionales adaptadas a tus objetivos específicos. Me enfoco en crear una cautivadora experiencia de usuario para impulsar la participación y las conversiones."
+            "title": "Diseño y desarrollo de landing pages",
+            "description": "Creación de landing pages visualmente impresionantes y altamente funcionales adaptadas a tus objetivos específicos. Me enfoco en crear una cautivadora experiencia de usuario para impulsar la participación y las conversiones."
         },
         "ecommerce": {
-            "title": "Desarrollo de comercio electrónico con WordPress",
-            "description": "Construcción y personalización de sitios web de comercio electrónico ricos en características utilizando WordPress. Desde listados de productos hasta pasarelas de pago seguras, creo experiencias de compra en línea fluidas."
+            "title": "Desarrollo de e-commerce con WordPress",
+            "description": "Construcción y personalización de sitios web e-commerce ricos en características utilizando WordPress. Desde listados de productos hasta pasarelas de pago seguras, creo experiencias de compra en línea fluidas."
         },
         "mobile": {
             "title": "Desarrollo de aplicaciones móviles con Ionic/Angular",
@@ -57,5 +62,12 @@
     },
     "footer": {
         "description": "Diseñado y construido por Emiliano Scanga con"
+    },
+    "chat": {
+        "message1Title": "Tú",
+        "message1": "¡Hola! Me encontré con tu portafolio y estoy interesado en tus servicios de desarrollo web.",
+        "message2": "Hola, ¿en qué puedo ayudarte? 😊",
+        "chatInput": "Quiero..."
     }
+    
 }

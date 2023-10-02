@@ -1,4 +1,9 @@
     {
+        "nav":{
+            "about": "About me",
+            "services": "Services",
+            "contact": "Contact"
+        },
         "hero":{
             "bouble": "Welcome to my world! 👋🏻",
             "h1": "<span>Hi, i'm <b>Emiliano</b> a</span><span>Front-end developer</span>",
@@ -57,5 +62,11 @@
         },
         "footer":{
             "description": "Designed & built by Emiliano Scanga with"
+        },
+        "chat":{
+            "message1Title":"You",
+            "message1": "Hi there! I came across your portfolio and I'm interested in your web development services.",
+            "message2":"Hey, how i can help you? 😊",
+            "chatInput":"I wanna..."
         }
     }
