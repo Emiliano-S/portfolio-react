@@ -1,0 +1,61 @@
+    {
+        "hero":{
+            "bouble": "Welcome to my world! 👋🏻",
+            "h1": "<span>Hi, i'm <b>Emiliano</b> a</span><span>Front-end developer</span>",
+            "p": "My mission is to create <b>engaging</b> and <b>intuitive</b> digital experiences that capture attention and provide tangible value. With a blend of <b>creativity</b> and <b>technical</b> expertise, I transform ideas into <b>extraordinary projects</b>.<br /><br />Learn more about me and my work by browsing this portfolio."
+        },
+        "about":{
+            "bouble":"A summary about me 🙋🏻‍♂️",
+            "h2": "About me",
+            "description":{
+                "firstP":"Hello, I'm <b>Emiliano Scanga</b>, a 28-year-old front-end developer living in <b>Como (IT)</b>. <br /> I've been a passionate web page and application creator since I was twelve years old. It all began during my school days when I had an experience with <b>Microsoft Front Page</b> and <b>Dreamweaver</b>, leading me to create my first landing page. Since then, my passion has steadily grown, driving me to independently deepen my knowledge of <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b>.",
+                "secondP": "In <b>2023</b>, my dedication to web development led me to make a significant decision: I chose to pursue a professional path as a <b>Full Stack Web Developer</b> with <b>Develhope</b>. This decision was fueled by my desire to expand my skills and gain a deeper perspective in the field of web development.",
+                "thirdP": "I'm thrilled to put my skills and knowledge into practice, making the most of opportunities to grow as a professional in the industry.",
+                "fourthP": "Here are a few technologies I've been working with:"
+            }
+        },
+        "services":{
+            "bouble": "All start with a coffee ☕",
+            "h2": "What i do",
+            "mockup":{
+                "title": "Mockup creation with Figma",
+                "description": "Designing and crafting interactive mockups that bring your ideas to life. From concept to visualization, I specialize in creating engaging mockups that pave the way for seamless development."
+            },
+            "development":{
+                "title": "Landing page design and development",
+                "description": "Crafting visually stunning and highly functional landing pages tailored to your specific goals. I focus on creating a captivating user experience to drive engagement and conversions."
+            },
+            "ecommerce":{
+                "title": "E-commerce development with WordPress",
+                "description": "Building and customizing feature-rich e-commerce websites using WordPress. From product listings to secure payment gateways, I create seamless online shopping experiences."
+            },
+            "mobile":{
+                "title": "Mobile App development with Ionic/Angular",
+                "description": "Designing and developing cross-platform mobile applications using Ionic and Angular. I specialize in creating efficient and engaging mobile apps for both iOS and Android platforms."
+            },
+            "performance":{
+                "title": "Performance optimization",
+                "description": "Optimizing website performance on PageSpeed Insights platforms. I ensure that your website loads quickly and efficiently, enhancing user satisfaction and search engine rankings."
+            },
+            "refactoring":{
+                "title": "Web page refactoring",
+                "description": "Optimizing and restructuring existing web pages to improve code quality, performance, and user experience. Enhancing the efficiency and maintainability of web pages for better overall functionality."
+            },
+            "coffe":{
+                "title": "Drink coffee",
+                "description": "And last but not least, fueling creativity and productivity with a love for coffee! Because great ideas deserve great coffee."
+            }
+        },
+        "contact":{
+            "bouble":"What’s next? 💬",
+            "h2": "Get in touch",
+            "description":{
+                "firstP": "Thank you for considering my services. If you have a project in mind, a question, or just want to say hello, I'd love to hear from you.",
+                "secondP": "Feel free to reach out using the button and social media below, and I'll get back to you as soon as possible."
+            },
+            "button": "Contact me!"
+        },
+        "footer":{
+            "description": "Designed & built by Emiliano Scanga with"
+        }
+    }

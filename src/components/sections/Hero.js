@@ -2,10 +2,12 @@ import React, { useRef } from 'react'
 import profile from '../../assets/svg/profile.svg';
 import Socials from '../Socials';
 import { CheckVisibility } from '../../hooks/CheckVisibility';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () =>{
     const refHero = useRef();
     const isVisible = CheckVisibility(refHero);
+    const {t} = useTranslation();
     return (
         <section id='hero' className={`full ${isVisible ? 'visible' : ''}`} ref={refHero}>
             <div className='container'>
@@ -15,16 +17,13 @@ const Hero = () =>{
                             style={{
                                 borderBottomLeftRadius: "0px"
                                 }}>
-                            Welcome to my world! 👋🏻
+                            {t('hero.bouble')}
                         </div>
-                        <h1 className='title'>
-                            <span>Hi, i'm <b>Emiliano</b> a</span>
-                            <span>Front-end developer</span>
+                        <h1 className='title'
+                            dangerouslySetInnerHTML={{ __html: t('hero.h1') }}>
                         </h1>
-                        <p className='sectionDescription'>
-                        My mission is to create <b>engaging</b> and <b>intuitive</b> digital experiences that capture attention and provide tangible value. With a blend of <b>creativity</b> and <b>technical</b> expertise, I transform ideas into <b>extraordinary projects</b>.<br />
-                        <br />
-                        Learn more about me and my work by browsing this portfolio.
+                        <p className='sectionDescription'
+                        dangerouslySetInnerHTML={{ __html: t('hero.p') }}>
                         </p>
                         <Socials></Socials>
                     </div>

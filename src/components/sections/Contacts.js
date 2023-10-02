@@ -2,11 +2,13 @@ import React, { useEffect, useRef, useState } from 'react';
 import Socials from '../Socials';
 import Chat from '../Chat';
 import { CheckVisibility } from '../../hooks/CheckVisibility';
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
   const [active, setActive] = useState(false);
   const refContact = useRef();
   const isVisible = CheckVisibility(refContact);
+  const {t} = useTranslation();
 
   useEffect(() => {
     setActive(true);
@@ -20,20 +22,22 @@ const Contact = () => {
                         style={{
                             borderBottomLeftRadius: "0px"
                             }}>
-                What’s next? 💬
+                {t('about.bouble')}
             </div>
             <h2 className='title w80'>
-              <span>Get in touch <span className='line'></span></span>
+              <span>{t('about.h2')}<span className='line'></span></span>
             </h2>
-            <p className='sectionDescription w80'>
-              Thank you for considering my services. If you have a project in mind, a question, or just want to say hello, I'd love to hear from you.
+            <p className='sectionDescription w80'
+               dangerouslySetInnerHTML={{ __html: t('contact.description.firstP') }}>
+              
             </p>
-            <p className='sectionDescription w80'>
-              Feel free to reach out using the button and social media below, and I'll get back to you as soon as possible.
+            <p className='sectionDescription w80'
+                dangerouslySetInnerHTML={{ __html: t('contact.description.firstP') }}>
+              
             </p>
             <div className='container contact-button'>
               <div className='bouble' onClick={() => window.location = 'mailto:scangaemilianodev@gmail.com'}>
-                Contact me!
+                {t('contact.button')}
               </div>
               <Socials></Socials>
             </div>

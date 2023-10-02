@@ -1,0 +1,61 @@
+{
+    "hero": {
+        "bouble": "¡Bienvenido a mi mundo! 👋🏻",
+        "h1": "<span>Hola, soy <b>Emiliano</b>, un</span><span>desarrollador Front-end</span>",
+        "p": "Mi misión es crear experiencias digitales <b>atractivas</b> e <b>intuitivas</b> que capturen la atención y proporcionen un valor tangible. Con una combinación de <b>creatividad</b> y <b>experticia técnica</b>, transformo ideas en <b>proyectos extraordinarios</b>.<br /><br />Conoce más sobre mí y mi trabajo navegando por este portfolio."
+    },
+    "about": {
+        "bouble": "Un resumen sobre mí 🙋🏻‍♂️",
+        "h2": "Sobre mí",
+        "description": {
+            "firstP": "Hola, soy <b>Emiliano Scanga</b>, un desarrollador Front-end de 28 años que vive en <b>Como (IT)</b>. <br /> He sido un apasionado creador de páginas web y aplicaciones desde que tenía doce años. Todo comenzó durante mis días de escuela cuando tuve una experiencia con <b>Microsoft Front Page</b> y <b>Dreamweaver</b>, lo que me llevó a crear mi primera página de aterrizaje. Desde entonces, mi pasión ha crecido constantemente, impulsándome a profundizar de forma independiente en mi conocimiento de <b>HTML</b>, <b>CSS</b> y <b>JavaScript</b>.",
+            "secondP": "En <b>2023</b>, mi dedicación al desarrollo web me llevó a tomar una decisión importante: elegí seguir un camino profesional como <b>Desarrollador Web Full Stack</b> con <b>Develhope</b>. Esta decisión fue impulsada por mi deseo de expandir mis habilidades y obtener una perspectiva más profunda en el campo del desarrollo web.",
+            "thirdP": "Estoy emocionado de poner en práctica mis habilidades y conocimientos, aprovechando al máximo las oportunidades para crecer como profesional en la industria.",
+            "fourthP": "Aquí tienes algunas tecnologías con las que he estado trabajando:"
+        }
+    },
+    "services": {
+        "bouble": "Todo comienza con un café ☕",
+        "h2": "Lo que hago",
+        "mockup": {
+            "title": "Creación de maquetas con Figma",
+            "description": "Diseño y creación de maquetas interactivas que dan vida a tus ideas. Desde el concepto hasta la visualización, me especializo en la creación de maquetas atractivas que allanan el camino para un desarrollo sin problemas."
+        },
+        "development": {
+            "title": "Diseño y desarrollo de páginas de aterrizaje",
+            "description": "Creación de páginas de aterrizaje visualmente impresionantes y altamente funcionales adaptadas a tus objetivos específicos. Me enfoco en crear una cautivadora experiencia de usuario para impulsar la participación y las conversiones."
+        },
+        "ecommerce": {
+            "title": "Desarrollo de comercio electrónico con WordPress",
+            "description": "Construcción y personalización de sitios web de comercio electrónico ricos en características utilizando WordPress. Desde listados de productos hasta pasarelas de pago seguras, creo experiencias de compra en línea fluidas."
+        },
+        "mobile": {
+            "title": "Desarrollo de aplicaciones móviles con Ionic/Angular",
+            "description": "Diseño y desarrollo de aplicaciones móviles multiplataforma utilizando Ionic y Angular. Me especializo en la creación de aplicaciones móviles eficientes y atractivas para las plataformas iOS y Android."
+        },
+        "performance": {
+            "title": "Optimización del rendimiento",
+            "description": "Optimización del rendimiento del sitio web en plataformas de PageSpeed Insights. Me aseguro de que tu sitio web cargue rápidamente y de manera eficiente, mejorando la satisfacción del usuario y el posicionamiento en los motores de búsqueda."
+        },
+        "refactoring": {
+            "title": "Refactorización de páginas web",
+            "description": "Optimización y reestructuración de páginas web existentes para mejorar la calidad del código, el rendimiento y la experiencia del usuario. Mejora de la eficiencia y mantenibilidad de las páginas web para una mejor funcionalidad en general."
+        },
+        "coffe": {
+            "title": "Tomar café",
+            "description": "¡Y por último pero no menos importante, alimentar la creatividad y la productividad con amor por el café! Porque las grandes ideas merecen un gran café."
+        }
+    },
+    "contact": {
+        "bouble": "¿Qué sigue? 💬",
+        "h2": "Ponte en contacto",
+        "description": {
+            "firstP": "Gracias por considerar mis servicios. Si tienes un proyecto en mente, alguna pregunta o simplemente quieres saludar, estaré encantado de saber de ti.",
+            "secondP": "No dudes en ponerte en contacto utilizando el botón y las redes sociales a continuación, y te responderé lo antes posible."
+        },
+        "button": "¡Contáctame!"
+    },
+    "footer": {
+        "description": "Diseñado y construido por Emiliano Scanga con"
+    }
+}

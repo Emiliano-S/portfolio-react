@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 import logo from '../../assets/svg/logo.svg';
+import { useTranslation } from 'react-i18next';
+import Language from '../Language';
 
 const Header = () =>{
     const [active, setActive] = useState(false);
     const [mobileOpen, setMobileOpen] = useState(false);
+    
 
 
     useEffect(() =>{
@@ -45,7 +48,9 @@ const Header = () =>{
                     <Link to='about' href='#about' duration={500} onClick={openMenuMobile}>About me</Link>
                     <Link to='services' href='#services'  duration={500} onClick={openMenuMobile}>Services</Link>
                     <Link to='contact' href='#contact'  duration={500} onClick={openMenuMobile}>Contact</Link>
+                   <Language />
                 </nav>
+                
             </div>
         </section>
     )
