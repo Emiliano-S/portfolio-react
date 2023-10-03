@@ -8,6 +8,7 @@
 @import './contacts.css';
 @import './footer.css';
 @import './language.css';
+@import './darkMode.css';
 
 /* latin-ext */
 @font-face {

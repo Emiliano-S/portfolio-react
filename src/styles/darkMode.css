@@ -1,0 +1,8 @@
+@media (prefers-color-scheme: dark) {
+    :root{
+        --background-color: #F0F0EF;
+    }
+    .header{
+        background: #F0F0EF;
+    }
+  }
